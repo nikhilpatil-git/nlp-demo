@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Helvetica', sans-serif;
+}
+
+.csv-container {
+  text-align: center;
+  padding: 15px;
+  margin: 10px auto;
+}
+
+.csv-input {
+  padding: 10px;
+  display: block;
+  margin: 15px auto;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.csv-container p {
+  padding-top: 10px;
+  color: #666;
+}
+
+.fields{
+  text-align: left;
+}
+
+.admin-panel{
+  display: grid;
+  justify-content: center;
+   margin-top: 10%
+}
+
+.button-grid{
+  width: 100%;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.button-panel{
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: 100px 100px;
+  grid-column-gap: 20px;
+  justify-items: center;
+}
+
+.star-btn{
+  width: 100px;
+  height: 70px;
+}
+
+.box {
+  background-color: #444;
+  color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  font-size: 150%;
+}
